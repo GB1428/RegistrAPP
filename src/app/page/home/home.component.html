@@ -1,0 +1,11 @@
+<ion-content>
+
+  <app-header></app-header>
+
+  <h1>Bienvenido a RegistrAPP</h1>
+
+  <!-- Mostrar mensaje solo si el usuario está logueado -->
+  <p *ngIf="isLoggedIn">¡Nos alegra tenerte aquí, {{ usuario }}!</p>
+
+  <app-footer></app-footer>
+</ion-content>
