@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { QrComponent} from './qr/qr.component';
 import { VistaAlumnoComponent } from './vista-alumno/vista-alumno.component';
+import { RecuperarComponent } from './recuperar/recuperar.component';
 import { VistaProfesorComponent } from './vista-profesor/vista-profesor.component';
 import { LogoutComponent } from './logout/logout.component';
 
@@ -17,6 +18,7 @@ import { LogoutComponent } from './logout/logout.component';
 @NgModule({
   declarations: [
     LoginComponent,
+    RecuperarComponent,
     HomeComponent,
     LogoutComponent,
     QrComponent,

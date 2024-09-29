@@ -5,12 +5,14 @@ import { QrComponent } from "./qr/qr.component";
 import { VistaAlumnoComponent } from "./vista-alumno/vista-alumno.component";
 import { VistaProfesorComponent } from "./vista-profesor/vista-profesor.component";
 import { LogoutComponent } from "./logout/logout.component";
+import { RecuperarComponent } from "./recuperar/recuperar.component";
 
 
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'login', component : LoginComponent},
+    { path: 'recuperar', component : RecuperarComponent},
     { path: 'home', component : HomeComponent},
     { path: 'logout', component: LogoutComponent},
     { path: 'qr' , component : QrComponent},
